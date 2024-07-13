@@ -25,7 +25,7 @@ check_logged_out();
                             $validator = $_GET['validator'];
                         ?>
 
-                        <input type="hidden" name="selector" value="<?php echo $selector; ?>">
+                        <!-- <input type="hidden" name="selector" value="<?php echo $selector; ?>"> -->
                         <input type="hidden" name="validator" value="<?php echo $validator; ?>">
 
                         <div class="text-center">
